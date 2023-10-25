@@ -7,8 +7,17 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
+    <h1>Etch-A-Sketch</h1>
+
+    <div class="controls">
+        <button id="editGridButton">Edit Grid</button>
+        <button id="resetButton">Reset</button>
+        <input type="color" value="#FFFFF" id="colorPicker" class="color" onchange="changeColor()">
+       
+    </div>
+    <p id="gridSize">grid</p>
     <div class="container" id="container">
-        
+
     </div>
 </body>
 <script src="script.js"></script>
